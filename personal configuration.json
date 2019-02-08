@@ -634,7 +634,8 @@
             "loudness",
             "maximizer",
             "filter",
-            "pitch"
+            "pitch",
+            "delay"
         ],
         "bass_enhancer": {
             "state": "false",
@@ -649,7 +650,7 @@
             "listen": "true"
         },
         "compressor": {
-            "state": "false",
+            "state": "true",
             "detection": "RMS",
             "stereo-link": "Average",
             "mix": "0",
@@ -666,10 +667,10 @@
             "feed": "4.5"
         },
         "deesser": {
-            "state": "false",
+            "state": "true",
             "detection": "RMS",
             "mode": "Wide",
-            "threshold": "-18",
+            "threshold": "-15",
             "ratio": "3",
             "laxity": "15",
             "makeup": "0",
@@ -683,136 +684,136 @@
         "equalizer": {
             "state": "true",
             "num-bands": "10",
-            "input-gain": "0.59999999999999998",
+            "input-gain": "-1",
             "output-gain": "0",
             "split-channels": "false",
             "left": {
                 "band0": {
-                    "gain": "4",
-                    "frequency": "32",
+                    "gain": "-1.6000000000000001",
+                    "frequency": "29.952623149688797",
                     "width": "19.905246299377595",
-                    "type": "peak"
+                    "type": "low-shelf"
                 },
                 "band1": {
-                    "gain": "2",
-                    "frequency": "64",
+                    "gain": "4.5",
+                    "frequency": "59.763340205038524",
                     "width": "39.716187811321859",
                     "type": "peak"
                 },
                 "band2": {
-                    "gain": "1",
-                    "frequency": "125",
+                    "gain": "7",
+                    "frequency": "119.24354052777788",
                     "width": "79.244212834156855",
                     "type": "peak"
                 },
                 "band3": {
-                    "gain": "0",
-                    "frequency": "250",
+                    "gain": "8",
+                    "frequency": "237.92214271853953",
                     "width": "158.11299154736642",
                     "type": "peak"
                 },
                 "band4": {
-                    "gain": "-1",
-                    "frequency": "500",
+                    "gain": "5.5999999999999996",
+                    "frequency": "474.71708526294935",
                     "width": "315.47689354145319",
                     "type": "peak"
                 },
                 "band5": {
-                    "gain": "-2",
-                    "frequency": "1000",
+                    "gain": "0",
+                    "frequency": "947.18511049703125",
                     "width": "629.45915692671076",
                     "type": "peak"
                 },
                 "band6": {
-                    "gain": "0",
-                    "frequency": "2000",
+                    "gain": "-2.5",
+                    "frequency": "1889.8827562743609",
                     "width": "1255.9361346279484",
                     "type": "peak"
                 },
                 "band7": {
-                    "gain": "2",
-                    "frequency": "4000",
+                    "gain": "-2",
+                    "frequency": "3770.8118433037489",
                     "width": "2505.9220394308272",
                     "type": "peak"
                 },
                 "band8": {
-                    "gain": "3",
-                    "frequency": "8000",
+                    "gain": "-1.6000000000000001",
+                    "frequency": "7523.7587677823067",
                     "width": "4999.9718095262879",
                     "type": "peak"
                 },
                 "band9": {
-                    "gain": "3",
-                    "frequency": "16000",
+                    "gain": "-1.5",
+                    "frequency": "15011.872336272731",
                     "width": "9976.2553274545608",
-                    "type": "peak"
+                    "type": "high-shelf"
                 }
             },
             "right": {
                 "band0": {
-                    "gain": "4",
-                    "frequency": "32",
+                    "gain": "-1.6000000000000001",
+                    "frequency": "29.952623149688797",
                     "width": "19.905246299377595",
-                    "type": "peak"
+                    "type": "low-shelf"
                 },
                 "band1": {
-                    "gain": "2",
-                    "frequency": "64",
+                    "gain": "4.5",
+                    "frequency": "59.763340205038524",
                     "width": "39.716187811321859",
                     "type": "peak"
                 },
                 "band2": {
-                    "gain": "1",
-                    "frequency": "125",
+                    "gain": "7",
+                    "frequency": "119.24354052777788",
                     "width": "79.244212834156855",
                     "type": "peak"
                 },
                 "band3": {
-                    "gain": "0",
-                    "frequency": "250",
+                    "gain": "8",
+                    "frequency": "237.92214271853953",
                     "width": "158.11299154736642",
                     "type": "peak"
                 },
                 "band4": {
-                    "gain": "-1",
-                    "frequency": "500",
+                    "gain": "5.5999999999999996",
+                    "frequency": "474.71708526294935",
                     "width": "315.47689354145319",
                     "type": "peak"
                 },
                 "band5": {
-                    "gain": "-2",
-                    "frequency": "1000",
+                    "gain": "0",
+                    "frequency": "947.18511049703125",
                     "width": "629.45915692671076",
                     "type": "peak"
                 },
                 "band6": {
-                    "gain": "0",
-                    "frequency": "2000",
+                    "gain": "-2.5",
+                    "frequency": "1889.8827562743609",
                     "width": "1255.9361346279484",
                     "type": "peak"
                 },
                 "band7": {
-                    "gain": "2",
-                    "frequency": "4000",
+                    "gain": "-2",
+                    "frequency": "3770.8118433037489",
                     "width": "2505.9220394308272",
                     "type": "peak"
                 },
                 "band8": {
-                    "gain": "3",
-                    "frequency": "8000",
+                    "gain": "-1.6000000000000001",
+                    "frequency": "7523.7587677823067",
                     "width": "4999.9718095262879",
                     "type": "peak"
                 },
                 "band9": {
-                    "gain": "3",
-                    "frequency": "16000",
+                    "gain": "-1.5",
+                    "frequency": "15011.872336272731",
                     "width": "9976.2553274545608",
-                    "type": "peak"
+                    "type": "high-shelf"
                 }
             }
         },
         "exciter": {
-            "state": "false",
+            "state": "true",
             "input-gain": "0",
             "output-gain": "0",
             "amount": "0",
@@ -827,10 +828,10 @@
             "state": "false",
             "input-gain": "0",
             "output-gain": "0",
-            "frequency": "2000",
-            "resonance": "-3",
+            "frequency": "193.821",
+            "resonance": "1.3795599999999999",
             "mode": "12dB\/oct Lowpass",
-            "inertia": "20"
+            "inertia": "74"
         },
         "gate": {
             "state": "false",
@@ -846,7 +847,7 @@
         },
         "limiter": {
             "state": "true",
-            "input-gain": "5",
+            "input-gain": "0",
             "limit": "-10",
             "lookahead": "10",
             "release": "1000",
@@ -946,7 +947,7 @@
         },
         "multiband_gate": {
             "state": "true",
-            "input-gain": "3",
+            "input-gain": "0",
             "output-gain": "0",
             "freq0": "120",
             "freq1": "1000",
@@ -1024,9 +1025,9 @@
         },
         "convolver": {
             "state": "true",
-            "input-gain": "3",
+            "input-gain": "0",
             "output-gain": "0",
-            "kernel-path": "\/home\/dani\/.config\/PulseEffects\/irs\/dolby_home_theater_v4_03.irs",
+            "kernel-path": "\/home\/nabil\/.config\/PulseEffects\/irs\/dolby_home_theater_v4_02.irs",
             "ir-width": "100"
         },
         "crystalizer": {
@@ -1037,12 +1038,19 @@
         },
         "autogain": {
             "state": "true",
-            "input-gain": "3",
+            "input-gain": "0",
             "output-gain": "0",
             "target": "-15",
             "weight-m": "1",
             "weight-s": "1",
             "weight-i": "1"
+        },
+        "delay": {
+            "state": "false",
+            "input-gain": "0",
+            "output-gain": "0",
+            "time-l": "0",
+            "time-r": "0"
         }
     }
 }
